@@ -41,6 +41,7 @@ export const Button = styled.button`
 
 export const Header = styled.header`
   width: 100%;
+  font-family: Courrier, "Courrier New";
   line-height: 2em;
 	background-color: white;
   display: flex;
