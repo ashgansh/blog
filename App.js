@@ -11,7 +11,7 @@ import {
 } from "@phenomic/preset-react-app/lib/client";
 import Layout from './Layout'
 import Home from './Home'
-import { Footer } from './Layout/Wrappers'
+import Hero from './Hero';
 
 
 const HomeContainer = createContainer(Home, props => ({
@@ -45,9 +45,9 @@ const HeroPostLayout = ({ title, body }) => (
         content={textRenderer(body).slice(0, 150) + "…"}
       />
     </Head>
-    <Footer>
+    <Hero>
       <h1>{title}</h1>
-    </Footer>
+    </Hero>
     <BodyRenderer>{body}</BodyRenderer>
   </article>
 );
