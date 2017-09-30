@@ -22,9 +22,11 @@ const Home = ({ isLoading, posts }) => (
             posts.node &&
             posts.node.list &&
             posts.node.list.map(post => (
-              <PostBox key={post.id}>
-                <Link to={`/blog/${post.id}/`}>{post.title || post.id}</Link>
-              </PostBox>
+              <Link to={`/blog/${post.id}/`}>
+                <PostBox key={post.id}>
+                  {post.title || post.id}
+                </PostBox>
+              </Link>
             ))}
           </BoxContainer>
     )}

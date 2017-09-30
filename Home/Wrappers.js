@@ -2,17 +2,11 @@ import styled from 'styled-components';
 
 export const PostBox = styled.div`
   border: 2px solid #000;
-  min-width: 100%;
+  min-width: 500px;
   min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  &:hover {
-    background-color: #bdbdbd;
-    > a {
-    color:white;
-    }
-  }
 `
 
 export const BoxContainer = styled.div`
