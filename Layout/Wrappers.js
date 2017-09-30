@@ -6,14 +6,14 @@ export const Footer = styled.footer`
   min-width: 100%;
   color: #fff;
   display: flex;
-background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   justify-content: space-around;
   align-items: center;
 `
 export const Body = styled.div`
-  min-height: calc(100vh - 140px);
+  min-height: calc(100vh - 170px);
   max-width: 740px;
   padding-left: 20px;
   padding-right: 20px;
@@ -45,7 +45,7 @@ export const Header = styled.header`
 	background-color: white;
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   align-items: center;
 `
 
