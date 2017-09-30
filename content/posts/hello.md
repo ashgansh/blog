@@ -28,7 +28,7 @@ Yuval Noah Harari, Historian, author of Sapiens, is one of those people. Here's 
 
 > About 70,000 years ago, organisms belonging to the species Homo sapiens started to form even more elaborate structures called cultures.
 
-**BOOM!** (no that's not the sound of a bomb getting of, you're fine)
+**BOOM!**
 
 Ok, maybe you're thinking: "Of course you two-legged monkey!". And maybe you even know some better insults.
 
