@@ -43,7 +43,6 @@ export const Header = styled.header`
   width: 100%;
   line-height: 2em;
 	background-color: white;
-  position: fixed;
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid;
