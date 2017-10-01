@@ -21,6 +21,7 @@ const Home = ({ isLoading, posts }) => (
 
       (I want to be a cool kid too)
     </p>
+      <h2>Last Posts</h2>
 
     {isLoading && "Loading..."}
     {!isLoading && (

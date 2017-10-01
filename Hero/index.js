@@ -6,7 +6,7 @@ export default styled.div`
   min-width: 50%;
   font-size: 0.9em;
   font-family: Courrier, "Courrier New";
-  background-color: #eeeeee;
+  background-color: #F5F5F5;
   display: flex;
   justify-content: space-around;
   align-items: center;
