@@ -14,7 +14,14 @@ const Home = ({ isLoading, posts }) => (
     <BoxContainer>
       <a data-flickr-embed="true"  href="https://www.flickr.com/photos/95890445@N02/31861008553/in/dateposted-public/" title="Chilly - Les villes-6"><img src="https://farm1.staticflickr.com/763/31861008553_51456a8ce2_k.jpg" width="500" height="333" alt="Chilly - Les villes-6" /></a>
     </BoxContainer>
-    <h2>Latest Posts</h2>
+    <h2>What should you expect?</h2>
+    <p>
+      Maybe I should start with an introduction about what this blog is going to be about.
+      The truth is: I don't know yet. I need a place to summarize and organize my thoughts and putting it on the Interweb seems to be where all the cool kids do it.
+
+      (I want to be a cool kid too)
+    </p>
+
     {isLoading && "Loading..."}
     {!isLoading && (
       <BoxContainer>
