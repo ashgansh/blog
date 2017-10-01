@@ -73,4 +73,9 @@ export const Base = styled.div`
   }
 
 
+  a {
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+  }
 `
