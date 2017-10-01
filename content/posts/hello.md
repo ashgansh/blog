@@ -6,7 +6,7 @@ layout: "hero"
 
 
 
-I've always been fascinated by how certain people are able to break down complex issues into manageable chunks.
+I've always been fascinated by how certain people are able to break down complex issues into manageable chunks. Some people really excell at seeing the big picture, removing the noise from what sounds like a cacophony to most people.
 
 Yuval Noah Harari, Historian, author of Sapiens, is one of those people. Here's a quote from one of the early pages of the book:
 
