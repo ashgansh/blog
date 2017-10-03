@@ -13,7 +13,7 @@ export const Footer = styled.footer`
   align-items: center;
 `
 export const Body = styled.div`
-  min-height: calc(100vh - 170px);
+  min-height: calc(100vh - 200px);
   max-width: 740px;
   padding-left: 20px;
   padding-right: 20px;

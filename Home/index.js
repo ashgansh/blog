@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../Layout'
 import Head from "react-helmet";
 import Link from "../Link";
-import { PostBox, BoxContainer } from './Wrappers';
+import { PostBox, BoxContainer, Arrow } from './Wrappers';
 
 
 const Home = ({ isLoading, posts }) => (
@@ -18,6 +18,7 @@ const Home = ({ isLoading, posts }) => (
 
       (I want to be a cool kid too)
     </p>
+      <hr />
       <h2>Last Posts</h2>
 
     {isLoading && "Loading..."}
@@ -36,6 +37,7 @@ const Home = ({ isLoading, posts }) => (
           </BoxContainer>
     )}
     <div>
+      <hr />
       {posts.node &&
           posts.node.hasPreviousPage && (
             <Link
@@ -47,12 +49,18 @@ const Home = ({ isLoading, posts }) => (
                 )
               }
             >
-              Newer posts
+                <Arrow direction="left">
+                </Arrow>
             </Link>
           )}{" "}
           {posts.node &&
               posts.node.hasNextPage && (
-                <Link to={`/after/${posts.node.next}/`}>Older posts</Link>
+            <BoxContainer>
+              <Link to={`/after/${posts.node.next}/`}>
+                <Arrow direction="right">
+                </Arrow>
+                </Link>
+              </BoxContainer>
               )}
             </div>
           </Layout>
