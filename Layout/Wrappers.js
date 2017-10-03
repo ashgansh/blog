@@ -60,7 +60,7 @@ export const Base = styled.div`
     display: none;
   }
 
-	blockquote {
+	blockquote, pre {
 		background-color: #eff0f1;
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
