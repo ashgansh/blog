@@ -11,9 +11,6 @@ const Home = ({ isLoading, posts }) => (
       <title>Benjamin Shafii</title>
       <meta name="description" content="Everything is awesome!" />
     </Head>
-    <BoxContainer>
-      <a data-flickr-embed="true"  href="https://www.flickr.com/photos/95890445@N02/31861008553/in/dateposted-public/" title="Chilly - Les villes-6"><img src="https://farm1.staticflickr.com/763/31861008553_51456a8ce2_k.jpg" width="500" height="333" alt="Chilly - Les villes-6" /></a>
-    </BoxContainer>
     <h2>What should you expect?</h2>
     <p>
       Maybe I should start with an introduction about what this blog is going to be about.
@@ -30,8 +27,8 @@ const Home = ({ isLoading, posts }) => (
             posts.node &&
             posts.node.list &&
             posts.node.list.map(post => (
-              <Link to={`/blog/${post.id}/`}>
-                <PostBox key={post.id}>
+              <Link key={post.id} to={`/blog/${post.id}/`}>
+                <PostBox>
                   {post.title || post.id}
                 </PostBox>
               </Link>
